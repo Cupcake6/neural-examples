@@ -9,4 +9,4 @@ Run this command from the project root to launch this example:
 cargo run -p dot-classification --release
 ```
 
-Release mode is preffered for speed.
+Release mode is preferred for speed.
