@@ -34,7 +34,7 @@ async fn main() {
 
     let mut network = Network::random(
         &[2, 8, 8, 1],
-        &[LeakyReLU::new(0.2), Tanh::new(), Sigmoid::new()],
+        &[Swish::new(), Tanh::new(), Sigmoid::new()],
         &distr::Uniform::new(-0.2, 0.2).unwrap(),
     )
     .unwrap();
