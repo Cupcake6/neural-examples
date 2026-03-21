@@ -27,7 +27,7 @@ cargo run -p function-approximation --release
 # See for yourself
 Clone this repository with
 ``` shell
-git clone https://github.com/Cupcake6/neural-examples.git
+git clone --recurse-submodules -j8 https://github.com/Cupcake6/neural-examples.git
 ```
 
 Run examples from the repository with `cargo run -p <example-name> --release`.
