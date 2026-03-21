@@ -1,3 +1,5 @@
+### Below are some examples of [neural](https://github.com/Cupcake6/neural) being in action:
+
 # 1. Dot classification
 ![An example of using the library to classify dots](images/dot-classification-1.png)
 
@@ -21,3 +23,11 @@ To launch this example, run:
 ``` shell
 cargo run -p function-approximation --release
 ```
+
+# See for yourself
+Clone this repository with
+``` shell
+git clone https://github.com/Cupcake6/neural-examples.git
+```
+
+Run examples from the repository with `cargo run -p <example-name> --release`.
