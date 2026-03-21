@@ -10,3 +10,14 @@ cargo run -p dot-classification --release
 ```
 
 Release mode is preferred for speed.
+
+# 2. Function approximation
+![Network tries to approximate a spiky function](images/function-approximation-1.png)
+
+Network tries to approximate `x % 3.0` (which yields negative values for negative inputs). Red = true function, blue = network output.
+You can try out different functions by tweaking `function-approximation/src/main.rs`.
+
+To launch this example, run:
+``` shell
+cargo run -p function-approximation --release
+```
